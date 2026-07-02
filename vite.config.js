@@ -6,7 +6,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
   root: __dirname,
-  publicDir: "assets",
   build: {
     outDir: path.join(__dirname, "dist"),
     emptyOutDir: true,
