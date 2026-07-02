@@ -9,77 +9,77 @@
 // ============================================================
 const TRACKS = [
   // ── Billie Eilish — HIT ME HARD AND SOFT ──────────────────
-  { id:  1, title: "LUNCH",              artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "🍑", cover: 1, src: "/music/billie_lunch.mp3" },
-  { id:  2, title: "WILDFLOWER",         artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "🌸", cover: 2, src: "/music/billie_wildflower.mp3" },
-  { id:  3, title: "CHIHIRO",            artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "🦋", cover: 3, src: "/music/billie_chihiro.mp3" },
-  { id:  4, title: "BIRDS OF A FEATHER", artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "🐦", cover: 4, src: "/music/billie_birds_of_a_feather.mp3" },
-  { id:  5, title: "BLUE",               artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "🩵", cover: 5, src: "/music/billie_blue.mp3" },
-  { id:  6, title: "SKINNY",             artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "🕊️", cover: 6, src: "/music/billie_skinny.mp3" },
-  { id:  7, title: "BITTERSUITE",        artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "🎻", cover: 7, src: "/music/billie_bittersuite.mp3" },
-  { id:  8, title: "THE DINER",          artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "🍽️", cover: 8, src: "/music/billie_the_diner.mp3" },
-  { id:  9, title: "THE GREATEST",       artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "🏆", cover: 9, src: "/music/billie_the_greatest.mp3" },
-  { id: 10, title: "L'AMOUR DE MA VIE",  artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "💙", cover: 0, src: "/music/billie_lamour_de_ma_vie.mp3" },
+  { id:  1, title: "LUNCH",              artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "🍑", cover: 1, src: "/assets/music/billie_lunch.mp3" },
+  { id:  2, title: "WILDFLOWER",         artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "🌸", cover: 2, src: "/assets/music/billie_wildflower.mp3" },
+  { id:  3, title: "CHIHIRO",            artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "🦋", cover: 3, src: "/assets/music/billie_chihiro.mp3" },
+  { id:  4, title: "BIRDS OF A FEATHER", artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "🐦", cover: 4, src: "/assets/music/billie_birds_of_a_feather.mp3" },
+  { id:  5, title: "BLUE",               artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "🩵", cover: 5, src: "/assets/music/billie_blue.mp3" },
+  { id:  6, title: "SKINNY",             artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "🕊️", cover: 6, src: "/assets/music/billie_skinny.mp3" },
+  { id:  7, title: "BITTERSUITE",        artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "🎻", cover: 7, src: "/assets/music/billie_bittersuite.mp3" },
+  { id:  8, title: "THE DINER",          artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "🍽️", cover: 8, src: "/assets/music/billie_the_diner.mp3" },
+  { id:  9, title: "THE GREATEST",       artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "🏆", cover: 9, src: "/assets/music/billie_the_greatest.mp3" },
+  { id: 10, title: "L'AMOUR DE MA VIE",  artist: "Billie Eilish", album: "HIT ME HARD AND SOFT", emoji: "💙", cover: 0, src: "/assets/music/billie_lamour_de_ma_vie.mp3" },
   // ── Costa Gold ────────────────────────────────────────────
-  { id: 11, title: "Quem Tava Lá",       artist: "Costa Gold ft. Luccas Carlos & Marechal", album: "Single", emoji: "🎤", cover: 1, src: "/music/quem_tava_la.mp3" },
-  { id: 12, title: "Doce Veneno",        artist: "Costa Gold",  album: "Single", emoji: "🐍", cover: 2, src: "/music/costa_doce_veneno.mp3" },
-  { id: 13, title: "VAGO",               artist: "Costa Gold",  album: "Single", emoji: "🌫️", cover: 3, src: "/music/costa_vago.mp3" },
-  { id: 14, title: "A História de João Gatilho", artist: "Costa Gold", album: "Single", emoji: "🔫", cover: 4, src: "/music/costa_joao_gatilho.mp3" },
-  { id: 15, title: "Dás Arábia",         artist: "Costa Gold",  album: "Single", emoji: "🏜️", cover: 5, src: "/music/costa_das_arabia.mp3" },
-  { id: 16, title: "DAMASSACLAN",        artist: "Costa Gold",  album: "TheCypherDeffect", emoji: "🎙️", cover: 6, src: "/music/costa_damassaclan.mp3" },
-  { id: 17, title: "Chama os Mulekes",   artist: "Costa Gold",  album: "Single", emoji: "📢", cover: 7, src: "/music/costa_chama_os_mulekes.mp3" },
+  { id: 11, title: "Quem Tava Lá",       artist: "Costa Gold ft. Luccas Carlos & Marechal", album: "Single", emoji: "🎤", cover: 1, src: "/assets/music/quem_tava_la.mp3" },
+  { id: 12, title: "Doce Veneno",        artist: "Costa Gold",  album: "Single", emoji: "🐍", cover: 2, src: "/assets/music/costa_doce_veneno.mp3" },
+  { id: 13, title: "VAGO",               artist: "Costa Gold",  album: "Single", emoji: "🌫️", cover: 3, src: "/assets/music/costa_vago.mp3" },
+  { id: 14, title: "A História de João Gatilho", artist: "Costa Gold", album: "Single", emoji: "🔫", cover: 4, src: "/assets/music/costa_joao_gatilho.mp3" },
+  { id: 15, title: "Dás Arábia",         artist: "Costa Gold",  album: "Single", emoji: "🏜️", cover: 5, src: "/assets/music/costa_das_arabia.mp3" },
+  { id: 16, title: "DAMASSACLAN",        artist: "Costa Gold",  album: "TheCypherDeffect", emoji: "🎙️", cover: 6, src: "/assets/music/costa_damassaclan.mp3" },
+  { id: 17, title: "Chama os Mulekes",   artist: "Costa Gold",  album: "Single", emoji: "📢", cover: 7, src: "/assets/music/costa_chama_os_mulekes.mp3" },
   // ── Michael Jackson ───────────────────────────────────────
-  { id: 19, title: "A Place With No Name", artist: "Michael Jackson", album: "Xscape", emoji: "🌌", cover: 9, src: "/music/mj_a_place_with_no_name.mp3" },
-  { id: 20, title: "Blue Gangsta",       artist: "Michael Jackson", album: "Xscape", emoji: "🔵", cover: 0, src: "/music/mj_blue_gangsta.mp3" },
-  { id: 21, title: "Chicago",            artist: "Michael Jackson", album: "Xscape", emoji: "🏙️", cover: 1, src: "/music/mj_chicago.mp3" },
+  { id: 19, title: "A Place With No Name", artist: "Michael Jackson", album: "Xscape", emoji: "🌌", cover: 9, src: "/assets/music/mj_a_place_with_no_name.mp3" },
+  { id: 20, title: "Blue Gangsta",       artist: "Michael Jackson", album: "Xscape", emoji: "🔵", cover: 0, src: "/assets/music/mj_blue_gangsta.mp3" },
+  { id: 21, title: "Chicago",            artist: "Michael Jackson", album: "Xscape", emoji: "🏙️", cover: 1, src: "/assets/music/mj_chicago.mp3" },
   // ── Djonga ────────────────────────────────────────────────
-  { id: 22, title: "SOLTO pt. Hot",      artist: "Djonga",      album: "Single", emoji: "🔥", cover: 2, src: "/music/djonga_solto.mp3" },
+  { id: 22, title: "SOLTO pt. Hot",      artist: "Djonga",      album: "Single", emoji: "🔥", cover: 2, src: "/assets/music/djonga_solto.mp3" },
   // ── Michael Jackson (mais) ────────────────────────────────
-  { id: 23, title: "Love Never Felt So Good", artist: "Michael Jackson", album: "Xscape", emoji: "💛", cover: 3, src: "/music/mj_love_never_felt_so_good.mp3" },
-  { id: 24, title: "Loving You",         artist: "Michael Jackson", album: "Xscape", emoji: "🤍", cover: 4, src: "/music/mj_loving_you.mp3" },
-  { id: 25, title: "Do You Know Where Your Children Are", artist: "Michael Jackson", album: "Xscape", emoji: "🌙", cover: 5, src: "/music/mj_do_you_know.mp3" },
+  { id: 23, title: "Love Never Felt So Good", artist: "Michael Jackson", album: "Xscape", emoji: "💛", cover: 3, src: "/assets/music/mj_love_never_felt_so_good.mp3" },
+  { id: 24, title: "Loving You",         artist: "Michael Jackson", album: "Xscape", emoji: "🤍", cover: 4, src: "/assets/music/mj_loving_you.mp3" },
+  { id: 25, title: "Do You Know Where Your Children Are", artist: "Michael Jackson", album: "Xscape", emoji: "🌙", cover: 5, src: "/assets/music/mj_do_you_know.mp3" },
   // ── Chris Brown ───────────────────────────────────────────
-  { id: 26, title: "No One Else",        artist: "Chris Brown ft. Fridayy", album: "Single", emoji: "🫀", cover: 6, src: "/music/chris_brown_no_one_else.mp3" },
+  { id: 26, title: "No One Else",        artist: "Chris Brown ft. Fridayy", album: "Single", emoji: "🫀", cover: 6, src: "/assets/music/chris_brown_no_one_else.mp3" },
   // ── Costa Gold (mais) ─────────────────────────────────────
-  { id: 27, title: "Supremo",            artist: "Costa Gold",  album: "TKO", emoji: "👑", cover: 7, src: "/music/costa_supremo.mp3" },
-  { id: 28, title: "The Cypher Deffect 2", artist: "Costa Gold ft. Kant, Chayco & Spinar", album: "Single", emoji: "🎙️", cover: 8, src: "/music/costa_cypher_deffect_2.mp3" },
-  { id: 29, title: "Irmão DQbrada",      artist: "Costa Gold & Haikaiss", album: "Single", emoji: "🤝", cover: 9, src: "/music/costa_haikaiss_irmao_dqbrada.mp3" },
-  { id: 30, title: "Capítulo 2 — Chapei", artist: "La Viela & Costa Gold", album: "Single", emoji: "🎩", cover: 0, src: "/music/la_viela_costa_chapei.mp3" },
+  { id: 27, title: "Supremo",            artist: "Costa Gold",  album: "TKO", emoji: "👑", cover: 7, src: "/assets/music/costa_supremo.mp3" },
+  { id: 28, title: "The Cypher Deffect 2", artist: "Costa Gold ft. Kant, Chayco & Spinar", album: "Single", emoji: "🎙️", cover: 8, src: "/assets/music/costa_cypher_deffect_2.mp3" },
+  { id: 29, title: "Irmão DQbrada",      artist: "Costa Gold & Haikaiss", album: "Single", emoji: "🤝", cover: 9, src: "/assets/music/costa_haikaiss_irmao_dqbrada.mp3" },
+  { id: 30, title: "Capítulo 2 — Chapei", artist: "La Viela & Costa Gold", album: "Single", emoji: "🎩", cover: 0, src: "/assets/music/la_viela_costa_chapei.mp3" },
   // ── Haikaiss ──────────────────────────────────────────────
-  { id: 31, title: "A Praga",            artist: "Haikaiss",    album: "Single", emoji: "🐍", cover: 1, src: "/music/haikaiss_a_praga.mp3" },
-  { id: 32, title: "RAP LORD",           artist: "Haikaiss ft. Jonas Bento", album: "Single", emoji: "👁️", cover: 2, src: "/music/haikaiss_rap_lord.mp3" },
-  { id: 33, title: "Sem Graça",          artist: "Haikaiss",    album: "Single", emoji: "😶", cover: 3, src: "/music/haikaiss_sem_graca.mp3" },
+  { id: 31, title: "A Praga",            artist: "Haikaiss",    album: "Single", emoji: "🐍", cover: 1, src: "/assets/music/haikaiss_a_praga.mp3" },
+  { id: 32, title: "RAP LORD",           artist: "Haikaiss ft. Jonas Bento", album: "Single", emoji: "👁️", cover: 2, src: "/assets/music/haikaiss_rap_lord.mp3" },
+  { id: 33, title: "Sem Graça",          artist: "Haikaiss",    album: "Single", emoji: "😶", cover: 3, src: "/assets/music/haikaiss_sem_graca.mp3" },
   // ── Filipe Ret ────────────────────────────────────────────
-  { id: 34, title: "Libertários Não Morrem", artist: "Filipe Ret ft. Funkero", album: "Single", emoji: "✊", cover: 4, src: "/music/filipe_ret_libertarios.mp3" },
+  { id: 34, title: "Libertários Não Morrem", artist: "Filipe Ret ft. Funkero", album: "Single", emoji: "✊", cover: 4, src: "/assets/music/filipe_ret_libertarios.mp3" },
   // ── Froid ─────────────────────────────────────────────────
-  { id: 35, title: "Lamentável pt. III", artist: "Froid ft. Cynthia Luz", album: "Single", emoji: "😔", cover: 5, src: "/music/froid_lamentavel_3.mp3" },
+  { id: 35, title: "Lamentável pt. III", artist: "Froid ft. Cynthia Luz", album: "Single", emoji: "😔", cover: 5, src: "/assets/music/froid_lamentavel_3.mp3" },
   // ── Grego ─────────────────────────────────────────────────
-  { id: 36, title: "Inevitável",         artist: "Grego",       album: "Single", emoji: "💔", cover: 6, src: "/music/grego_inevitavel.mp3" },
+  { id: 36, title: "Inevitável",         artist: "Grego",       album: "Single", emoji: "💔", cover: 6, src: "/assets/music/grego_inevitavel.mp3" },
   // ── Cypher ────────────────────────────────────────────────
-  { id: 37, title: "Reza Sincera",       artist: "Pablo Martins, MZ, Xamã, Knust, Pelé M", album: "Cypher", emoji: "🙏", cover: 7, src: "/music/cypher_reza_sincera.mp3" },
+  { id: 37, title: "Reza Sincera",       artist: "Pablo Martins, MZ, Xamã, Knust, Pelé M", album: "Cypher", emoji: "🙏", cover: 7, src: "/assets/music/cypher_reza_sincera.mp3" },
   // ── Class A ───────────────────────────────────────────────
-  { id: 38, title: "Uma Dose",           artist: "Class A",     album: "Single", emoji: "🥃", cover: 8, src: "/music/class_a_uma_dose.mp3" },
+  { id: 38, title: "Uma Dose",           artist: "Class A",     album: "Single", emoji: "🥃", cover: 8, src: "/assets/music/class_a_uma_dose.mp3" },
   // ── MC Sid & Nog ──────────────────────────────────────────
-  { id: 39, title: "Sítio do Tio Harry", artist: "MC Sid & Nog", album: "Single", emoji: "🏡", cover: 9, src: "/music/mc_sid_sitio_tio_harry.mp3" },
+  { id: 39, title: "Sítio do Tio Harry", artist: "MC Sid & Nog", album: "Single", emoji: "🏡", cover: 9, src: "/assets/music/mc_sid_sitio_tio_harry.mp3" },
   // ── Imprevisto / Yago Oproprio ────────────────────────────
-  { id: 40, title: "Imprevisto",         artist: "Yago Oproprio ft. Rô Rosa", album: "Single", emoji: "⚡", cover: 0, src: "/music/imprevisto_yago.mp3" },
+  { id: 40, title: "Imprevisto",         artist: "Yago Oproprio ft. Rô Rosa", album: "Single", emoji: "⚡", cover: 0, src: "/assets/music/imprevisto_yago.mp3" },
   // ── Costa Gold / Predella / Maori / Bigu ─────────────────
-  { id: 41, title: "Sessão de Rima",     artist: "Predella ft. Costa Gold, Maori & Bigu", album: "Single", emoji: "🎤", cover: 1, src: "/music/sessao_de_rima_predella.mp3" },
+  { id: 41, title: "Sessão de Rima",     artist: "Predella ft. Costa Gold, Maori & Bigu", album: "Single", emoji: "🎤", cover: 1, src: "/assets/music/sessao_de_rima_predella.mp3" },
   // ── KayArchon ─────────────────────────────────────────────
-  { id: 42, title: "She Goes By",        artist: "KayArchon",   album: "Single", emoji: "🌊", cover: 2, src: "/music/she_goes_by_kayarchon.mp3" },
+  { id: 42, title: "She Goes By",        artist: "KayArchon",   album: "Single", emoji: "🌊", cover: 2, src: "/assets/music/she_goes_by_kayarchon.mp3" },
   // ── Michael Jackson (Xscape album) ───────────────────────
-  { id: 43, title: "Slave to the Rhythm", artist: "Michael Jackson", album: "Xscape", emoji: "🕺", cover: 3, src: "/music/mj_slave_to_the_rhythm.mp3" },
-  { id: 44, title: "Xscape",             artist: "Michael Jackson", album: "Xscape", emoji: "🌌", cover: 4, src: "/music/mj_xscape.mp3" },
-  { id: 45, title: "Love Never Felt So Good", artist: "Michael Jackson & Justin Timberlake", album: "Xscape", emoji: "💖", cover: 5, src: "/music/mj_jt_love_never_felt.mp3" },
+  { id: 43, title: "Slave to the Rhythm", artist: "Michael Jackson", album: "Xscape", emoji: "🕺", cover: 3, src: "/assets/music/mj_slave_to_the_rhythm.mp3" },
+  { id: 44, title: "Xscape",             artist: "Michael Jackson", album: "Xscape", emoji: "🌌", cover: 4, src: "/assets/music/mj_xscape.mp3" },
+  { id: 45, title: "Love Never Felt So Good", artist: "Michael Jackson & Justin Timberlake", album: "Xscape", emoji: "💖", cover: 5, src: "/assets/music/mj_jt_love_never_felt.mp3" },
   // ── N.A.D.A.B.O.M ─────────────────────────────────────────
-  { id: 46, title: "N.A.D.A.B.O.M",     artist: "Costa Gold",  album: "Single", emoji: "🔥", cover: 6, src: "/music/nadabom.mp3" },
+  { id: 46, title: "N.A.D.A.B.O.M",     artist: "Costa Gold",  album: "Single", emoji: "🔥", cover: 6, src: "/assets/music/nadabom.mp3" },
   // ── Noah Kahan ────────────────────────────────────────────
-  { id: 47, title: "Orbiter",            artist: "Noah Kahan",  album: "Single", emoji: "🛸", cover: 7, src: "/music/noah_kahan_orbiter.mp3" },
+  { id: 47, title: "Orbiter",            artist: "Noah Kahan",  album: "Single", emoji: "🛸", cover: 7, src: "/assets/music/noah_kahan_orbiter.mp3" },
   // ── Recayd Mob ────────────────────────────────────────────
-  { id: 48, title: "Plaqtudum",          artist: "Recayd Mob ft. Jé Santiago, Derek & Dfideliz", album: "Single", emoji: "💣", cover: 8, src: "/music/recayd_mob_plaqtudum.mp3" },
+  { id: 48, title: "Plaqtudum",          artist: "Recayd Mob ft. Jé Santiago, Derek & Dfideliz", album: "Single", emoji: "💣", cover: 8, src: "/assets/music/recayd_mob_plaqtudum.mp3" },
   // ── Cova 66 ───────────────────────────────────────────────
-  { id: 49, title: "Sacode o Pó (Rosa Caveira)", artist: "Cova 66", album: "Single", emoji: "💀", cover: 9, src: "/music/cova_66_sacode_po.mp3" },
+  { id: 49, title: "Sacode o Pó (Rosa Caveira)", artist: "Cova 66", album: "Single", emoji: "💀", cover: 9, src: "/assets/music/cova_66_sacode_po.mp3" },
   // ── 5 Pontos de Maria Navalha ─────────────────────────────
-  { id: 50, title: "5 Pontos de Maria Navalha", artist: "Maria Navalha", album: "Single", emoji: "🌹", cover: 0, src: "/music/5_pontos_maria_navalha.mp3" },
+  { id: 50, title: "5 Pontos de Maria Navalha", artist: "Maria Navalha", album: "Single", emoji: "🌹", cover: 0, src: "/assets/music/5_pontos_maria_navalha.mp3" },
 ];
 
 // ============================================================
